@@ -1,0 +1,25 @@
+{
+  "name": "prueba-cypress",
+  "version": "1.0.0",
+  "description": "Proyecto de Prueba",
+  "main": "index.js",
+  "scripts": {
+    "prueba-edge": "cypress run --spec cypress/e2e/SmoketestOrangeHRM.cy.js --browser edge",
+    "prueba-chrome": "cypress run --spec cypress/e2e/SmoketestOrangeHRM.cy.js --browser chrome" 
+    
+   
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FLMarquez/Testing-Automatizaci-n-Cypress.git"
+  },
+  "author": "Lucas Marquez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/FLMarquez/Testing-Automatizaci-n-Cypress/issues"
+  },
+  "homepage": "https://github.com/FLMarquez/Testing-Automatizaci-n-Cypress#readme",
+  "dependencies": {
+    "cypress": "^10.6.0"
+  }
+}
